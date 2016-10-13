@@ -1,0 +1,175 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #0079bf;
+	color: #fff; 
+}
+#header{
+	width: 100%;
+	height: 60px;
+	background: rgba(181, 181, 181, 0.2);
+}
+a{
+	color: grey;
+	text-decoration: none;
+}
+h3{margin:0;}
+h2{
+	font-weight: 700;
+	float: left;
+    margin: 10px 15px 20px 15px;
+    height: 30px;
+}
+button::-moz-focus-inner{border: 0}
+button{
+	cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 0;
+    outline: none;
+}
+#warning{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+div#warning:before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    opacity: 0.7;
+    background-color: #000000;
+}
+#editForm{
+	color:grey;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -265px;
+	margin-top: -65px;
+	text-align: center;
+	width : 500px;
+	height: 100px;
+	background-color: white;
+	border: 1px solid brown;
+	border-radius : 2px;
+	padding: 15px;
+}
+#newList{
+	float: right;
+    margin: 15px;
+    background: rgba(181, 181, 181, 0.5);
+    width: 30px;
+    height: 30px;
+}
+#newList::before{
+	content: '\2795';
+    font-size: 1.6em;
+    color: white;
+}
+#newList:hover{
+	background-color: dimgray;
+}
+#addNew{
+	float: right;
+    height: 25px;
+    background: rgba(181, 181, 181, 0.2);
+    border: 1px solid #c3c3c3;
+    margin: 15px;
+    width: 250px;
+    font-size: 1.25em;
+    color: white;
+    outline: none;
+}
+.hidden{
+	display: none;
+}
+#content{
+	position: absolute;
+	height: 87%;
+	width: auto;
+	overflow-x:auto;
+	overflow-y: hidden; 
+	top: 65px;
+	right: 0;
+    bottom: 0;
+    left: 0;
+	margin: 8px; 
+	background: rgba(181, 181, 181, 0.2);
+	white-space: nowrap;
+}
+.listContainer{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    height:95%;
+    padding: 10px;
+}
+.card{
+	position: relative;
+    display: inline-block;
+    color: grey;
+    width: 275px;
+   	height: inherit;
+    vertical-align: top;
+}
+.cardList{
+	position: absolute;
+	width: 275px;
+	height: auto;
+	top: 46px;
+	border: 2px solid dimgray;
+	border-top: 0;
+	background: #e2e4e6;
+	max-height: 95%;
+    overflow-y: auto;
+    overflow-x:hidden;
+	/*max-height: 90%;
+	overflow-x:hidden;
+	overflow-y:auto;*/
+}
+.newCard{
+	font-size: 1em;
+    height: 25px;
+    width: 260px;
+    margin: 5px;
+    color: grey;
+}
+.cardHeading h3{
+	padding: 10px;
+}
+ul{
+	margin: 0; 
+    padding: 0;
+    list-style: none;
+}
+p{
+    margin: 0;
+}
+.cardHeading{
+	position: absolute;
+	height: 45px;
+	width: 275px;
+	border: 2px solid dimgray;
+	border-bottom: 0;
+	background: #e2e4e6;
+}
+.tasks li{
+    border-bottom: 1px solid #c3c3c3;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px 5px 10px 5px;
+	margin: 5px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+.addNew{
+	position: absolute;
+    padding: 0px 10px 5px 10px;
+    top: 14px;
+    right: 0;
+}

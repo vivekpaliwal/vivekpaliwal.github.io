@@ -1,0 +1,180 @@
+body{
+	 font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    margin: 0px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.site-header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 56px;
+    position: relative;
+    }
+.site-title, .site-title:visited {
+    color: #424242;
+}
+a {
+    color: #2a7ae2;
+    text-decoration: none;
+}
+a:hover {
+    color: #111;
+    text-decoration: underline;
+}
+h2{
+    margin: 0;
+}
+ .wrapper{
+ 	 max-width: calc(1000px - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+ }
+ .site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+    margin-top: 5px;
+}
+.contact {
+    display: inline-block;
+    float: right;
+    text-align: left;
+}
+.wrapper:after, .footer-col-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.contact p {
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.contact p:last-child {
+    margin-bottom: 5px;
+}
+.page-content {
+    padding: 30px 0;
+    text-align: center;
+}
+.page-heading {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.projects {
+    margin-bottom: 30px;
+}
+.projectList {
+    margin: 0;
+}
+.projectList li {
+    vertical-align: top;
+    padding: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 160px;
+    margin: 2px;
+    list-style: none;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+.content {
+    padding: 5px;
+}
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(27, 27, 27, 0.28);
+}
+.hidden{
+    display: none;
+}
+.link {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+.link a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    background: #1f8dd6;
+    color: #fff;
+    border: 1px solid #1f8dd6;
+}
+#template1 {
+    background-image: url(temp1.png);
+}
+.template {
+    background-size: cover;
+    background-position: center;
+}
+.template h3 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#template2 {
+    background-image: url(temp2.png);
+}
+#template3 {
+    background-image: url(temp3.png);
+}
+#template4 {
+    background-image: url(temp4.png);
+}
+.site-footer {
+    border-top: 1px solid #e8e8e8;
+    padding: 30px 0;
+}
+.footer-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer-col-wrapper {
+    color: #828282;
+    margin-left: -15px;
+}
+.footer-col-1 {
+    width: calc(35% - (30px / 2));
+}
+.footer-col {
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+.contact-list, .social-media-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0px;
+}
+.footer-col-2 {
+    width: calc(20% - (30px / 2));
+}
+.footer-col-3 {
+    width: calc(45% - (30px / 2));
+}
+.icon > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+

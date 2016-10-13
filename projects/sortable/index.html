@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Trello</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<script type="text/x-handlebars-template" id="taskInputTemplate">
+	    <li class="newTaskForm">
+			<div>
+				<div><input type="text" data-action="add"/></div>
+				<div>
+					<button class="saveCard" data-action="add">Add</button>
+					<button class="cancel" data-action="cancel"></button>
+				</div>
+			</div>
+		</li>
+	</script>
+	<script type="text/x-handlebars-template" id="listTemplate">
+		<div class="list">
+			<div class="title">
+				<p>{{title}}</p>
+				<a href="#" data-action="addCard">Add a card...</a>
+			</div>
+			<div class="taskContainer">
+				<ul class="tasks">
+				</ul>
+			</div>
+		</div>
+	</script>
+	<script type="text/x-handlebars-template" id="taskTemplate">
+		<li>{{taskValue}}</li>
+	</script>
+	<div id="header">
+		<h2>My Trello</h2>
+	</div>
+	<div id="container">
+		
+		<div id="addNewList">
+			<div class="newListLink"><a href="#">Add a list...</a></div>
+			<div class="newListForm hidden">
+				<div><input type="text" placeholder="Add a list..." data-action="input" /></div>
+				<div>
+				<button class="saveList" data-action="save">Save</button>
+				<button class="cancel" data-action="cancel"></button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/handlebars.js"></script>
+	<script src="js/view.js"></script>
+	<script src="js/controller.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

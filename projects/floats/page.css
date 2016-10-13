@@ -1,0 +1,276 @@
+html,div,map,dt,form {
+  display: block;
+}
+
+p,dl {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+dd {
+  display: block;
+  margin-left: 40px;
+}
+
+address {
+  display: block;
+  font-style: italic;
+}
+
+blockquote {
+  display: block;
+  margin: 1em 40px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.83em 0;
+}
+
+h3 {
+  display: block;
+  font-size: 1.125em;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+h4 {
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1.33em 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.75em;
+  font-weight: bold;
+  margin: 1.67em 0;
+}
+
+h6 {
+  display: block;
+  font-size: 0.5625em;
+  font-weight: bold;
+  margin: 2.33em 0;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
+hr {
+  display: block;
+  height: 2px;
+  border: 1px;
+  margin: 0.5em auto 0.5em auto;
+}
+/* TABLE ELEMENTS */
+table {
+  border-spacing: 2px;
+  border-collapse: separate;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 0;
+}
+
+caption {
+  text-align: center;
+}
+
+td {
+  padding: 1px;
+}
+
+th {
+  font-weight: bold;
+  padding: 1px;
+}
+
+tbody,thead,tfoot {
+  vertical-align: middle;
+}
+
+strong {
+  font-weight: bold;
+}
+
+cite,em,var,dfn {
+  font-style: italic;
+}
+
+code,kbd,samp {
+  font-family: monospace;
+}
+
+ins {
+  text-decoration: underline;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+sub {
+  vertical-align: -0.25em;
+  font-size: smaller;
+  line-height: normal;
+}
+
+sup {
+  vertical-align: 0.5em;
+  font-size: smaller;
+  line-height: normal;
+}
+
+abbr[title], acronym[title] {
+  border-bottom: dotted 1px;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 1em 0;
+  margin-left: 40px;
+  padding-left: 0;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 1em 0;
+  margin-left: 40px;
+  padding-left: 0;
+}
+ul ul,ul ol,ul dl,ol ul,ol ol,ol dl,dl ul,dl ol,dl dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ol ul, ul ul {
+  list-style-type: circle;
+}
+
+ol ol ul,ol ul ul,ul ol ul,ul ul ul {
+  list-style-type: square;
+}
+
+
+.clearfix:after,.clearfix:before {
+  content: "";
+  display: table;
+
+  :;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+html {
+  background-color: #f0efe7;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 15px/22.5px "wf_SegoeUI","Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial","sans-serif";
+  background-color: #f0efe7;
+  color: rgb(105, 97, 97);
+}
+
+#parent{
+  background: rgb(0, 173, 240);
+  height: 310px;
+  color: #fff;
+}
+#mainContainer {
+  width: 960px;
+  margin: 0px auto;
+  background: #fff;
+  border: 1px solid #B6B4B4;
+  position: relative;
+  padding:0px 10px 30px 10px ;
+}
+
+.box {
+  width: 140px;
+  height: 200px;
+  text-align: center;
+  padding: 60px 10px;
+  color: #fff;
+}
+
+.inlineBlock {
+  display: inline-block;
+  border: 1px solid rgba(128, 128, 128, 0.41);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+button {
+  height: 33px;
+  color: #fff;
+  background-color: rgb(0, 92, 255);
+  font-size: 16px;
+  border: none;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 10px;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#purple{
+  background: rgb(114, 10, 196);
+
+  -webkit-transition: all 1.0s ease-in-out;
+  -moz-transition: all ease-out 5s;
+  -o-transition: all ease-out 5s;
+  transition: all 1.0s ease-in-out;
+ 
+}
+#red{
+  background: red;
+
+  -webkit-transition: all ease-out 5s;
+  -moz-transition: all ease-out 5s;
+  -o-transition: all ease-out 5s;
+  transition: all ease-out 5s;
+  
+}
+#purpleBoxControls{
+ width: 220px;
+margin-top: 10px;
+height: 145px;
+display: inline-block;
+border: 1px solid rgb(199, 198, 198);
+margin-right:  40px;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
+#redBoxControls{
+width: 220px;
+  height: 145px;
+  display: inline-block;
+  border: 1px solid rgb(199, 198, 198);
+  text-align: center;
+}

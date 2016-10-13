@@ -1,0 +1,86 @@
+body{
+   width: 960px;
+margin: 0 auto;
+position: relative;
+}
+.frame{
+   
+    height: 419px;
+    width: 740px;
+    margin: 106 auto;
+    overflow:hidden;
+}
+.frame img{
+    width: 740px;
+    height: 432px;
+}
+.panel{
+    width: 739px;
+    height: 3888px;
+    background-color: green;
+    
+}
+h2{
+    position: absolute;
+top: -72px;
+left: 391px;
+}
+button.forward{
+height: 31px;
+width: 58px;
+background-color: rgba(158, 163, 158, 0.66);
+border: none;
+font-weight: bold;
+color: rgba(97, 97, 97, 0.94);
+position: absolute;
+top: 187px;
+right: 39px;
+background: url(../images/arrow.png);
+background-position: 58px -34px;
+}
+
+
+button.backward{
+     height: 32px;
+    width: 59px;
+    background-color: rgba(158, 163, 158, 0.66);
+    border: none;
+    font-weight: bold;
+    color: rgba(97, 97, 97, 0.94);
+    position: absolute;
+    top: 187px;
+left: 39px;
+    background: url(../images/arrow.png);
+background-position: 108px -34px;
+}
+button{
+   outline: none;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+.imageChoose button{
+   height: 40px;
+width: 40px;
+border-radius: 50%;
+border: none;
+margin-left: 8px;
+color: #333;
+font-size: 16px;
+font-weight: bold;
+}
+
+.imageChoose{
+    margin-left: 229px;
+margin-top: -64px;
+}
+.active{
+   background-color: #3498DB;
+
+color: #fff !important;
+}
+.imageChoose button:hover{
+cursor: default;
+color: #333;
+}

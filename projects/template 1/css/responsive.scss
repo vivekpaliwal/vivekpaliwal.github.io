@@ -1,0 +1,200 @@
+@media screen and(max-width : 1100px){
+	#video{
+		width: auto;
+	}
+	.banner{
+		footer{
+			padding: 2em 0;
+		}
+	}
+	#input{
+		width: 40%;
+	}
+	#submit,#guests{
+		width: 15%;
+	}
+	.wrapper{
+		width: 745px;
+	}
+	.carousel_ctn {
+	    height: 270px;
+	}
+	#text_only{ 
+		height: 270px;
+		h2 {
+		    font-size: 17px;
+		    line-height: 1.1;
+		    margin-bottom: 15px;
+		}
+		p{
+			font-size: 14px;
+		}
+		a{
+			font-size: 13px;
+			margin-top: 30px;
+			border: 1px solid #009aab;
+    		border-bottom-color: #004f58;
+		}
+	}
+	#first{
+		height: 270px;
+		ul{
+		    height: 270px;
+		    li{
+		    	height: inherit;
+		    }
+		    img{
+		        height: inherit;
+		    }
+		}
+	}	
+	.full{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.card div:not(:first-child){
+		width: 50%;
+	}
+	#three{
+		a{
+			width: 100%;
+			padding: 0;
+		}
+		footer{
+			padding: 2em 0;
+		}
+	}
+	.landscape{
+	    width: 100%;
+	}
+	.places{
+		.destination-ctn:not(.landscape){
+			width: 50%;
+		}
+	}
+	.hide{
+		display: none;
+	}
+	#six{
+		height: 1150px;
+	}
+	.community-card{
+		width: 50%;
+    	padding: 0 12.5px;
+    	margin-bottom: 25px;
+	}
+}
+@media screen and(max-width : 765px){
+	#nav{
+		top: 17px;
+	}
+	#one{
+		background-color: #eee;
+	}
+	#mobile{
+		display: block;
+	}
+	.host{
+		display: none;
+	}
+	#video{
+		display: none;
+	}
+	.banner{
+		footer{
+			position: relative;
+		    background: 0;
+		    padding-top: 10px;
+		    padding-bottom: 110px;
+		}
+	}
+	.wrapper{
+		width: auto;
+		padding: 0;
+	    overflow: hidden;
+	}
+	.heading{
+		padding: 20px;
+	    margin-top: 50px;
+		h2{
+		    font-size: 31px;
+			font-weight: 700;
+			line-height: 34.1px;
+			margin-bottom: 6.25px;
+			margin-top: 0px;
+			text-align: center;
+		}
+		p{
+			margin-bottom: 0;
+		}
+		a{
+			display: none;
+		}
+	}
+	#input {
+	    width: 85%;
+	    border-radius: 3px;
+	}
+	#submit,#guests{
+		display: none;
+	}
+.carousel_ctn {
+    height: 344px;
+    text-align: center;
+    width: 100%;
+}
+#text_only {
+    height: 344px;
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.29);
+    color: white;
+    width: 100%;
+    h2,p{
+    	color: white;
+    }
+}
+.inner{
+	padding: 80px 0;
+}
+#first {
+    height: 344px;
+    width: 100%;
+    margin: 0;
+    ul{
+    	height: 344px;
+    	width: 100%;
+    	li{
+    		width: 100%;
+    	}
+    	img{
+    		width: 100%;
+    	}
+    }
+}
+.card div{
+	width: 100%;
+	margin: 0;
+}
+.card div:not(:first-child) {
+    width: 100%;
+}
+#three a {
+    width: 99%;
+    padding: 0;
+}
+.places{
+		.destination-ctn:not(.landscape){
+			width: 100%;
+		}
+	}
+	.hide{
+		display: block;
+	}
+.places-ctn div {
+    margin-bottom: 0;
+}
+#five,#six{
+	display: none;
+}
+}

@@ -1,0 +1,48 @@
+.user{
+	    margin: 50px 0 0 50px;
+}
+.logo{
+    background: url(todo.png);
+    width: 100px;
+    height: 68px;
+    background-position: 8px 135px;
+    position: absolute;
+    left: 340px;
+    top: 15px;
+}
+.textArea{
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-size: 25px;
+    display: block;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.buttonStyle{
+    margin-right: 5px;
+    background-color: rgba(128, 128, 128, 0.18);
+    width: 84px;
+    height: 23px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.title{
+    width: 34%;
+    margin: 0 auto;
+}
+.site-title{
+    font-size: 38px;
+}
+.content{
+    margin-left: auto;
+    width: 36%;
+    margin-right: auto;
+}
+.trumcart{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 10px;
+}

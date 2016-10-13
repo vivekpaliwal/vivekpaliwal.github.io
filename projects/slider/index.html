@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<h2>Image Slider</h2>
+		<script id="template" type="text/x-handlebars-template">
+			{{#list this.urls}}
+				<img src = "{{this}}">
+			{{/list}}
+		</script>
+		<script id="templateButtons" type="text/x-handlebars-template">
+			{{#list this.buttonNo}}
+			<button id='{{this}}'>{{this}}</button>
+			{{/list}}
+		</script>
+		<button class="forward"></button>
+		<button class="backward"></button>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"></script>
+		<script type="text/javascript" src="scripts/gallery.js"></script>
+
+	</body>
+</html>

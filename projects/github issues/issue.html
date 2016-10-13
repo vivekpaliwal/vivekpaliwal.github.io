@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+<div id="#ajaxStatusMessage"> </div>
+<div class="issueCover"></div>
+<script id="template" type="text/x-handlebars-template">
+	<h4 class="marginTop">Issue title:</h4>
+	<p class="issueName">{{result.title}}</p>
+	<h4 class="marginTop">Associated tags:</h4>
+	<ol class="associated-list">
+  		{{#each result.labels}}
+  			<li class="associated"><span class="tag" style="color:#{{color}}">{{name}}</span></li>
+  		{{/each}}
+	</ol>
+	<h4 class="marginTop">User's picture:</h4>
+	<a target="_blank" href="user.html?api={{result.user.url}}"><img src="{{result.user.avatar_url}}" class="userImg"></a>
+</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+<script type="text/javascript" src="js/bloodhound.js"></script>
+<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="js/issue.js"></script>
+</body>
+
+</html>

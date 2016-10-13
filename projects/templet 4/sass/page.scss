@@ -1,0 +1,347 @@
+body{
+	background-color:#f2f2f2;
+	position:relative;
+}
+.nav{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    .firstColor{
+    	width: 7%;
+        height: 55px;
+        background-color:#3cb1e6;
+        display: inline-block;
+        float: left;
+    }
+    .navColor{
+    	display: inline-block;
+        width: 93%;
+        height: 55px;
+        float: left;
+        background-color: #d8d8d8;
+        p{
+         margin: 20px 0 0 30px;
+         color:#878787;
+         span{
+            font-weight: bold;
+            color:#878787;
+        }
+    }
+}
+}
+.sideBar{
+	clear:both;
+	width:7%;
+	height:100%;
+	background-color:#30302e;
+	position: fixed;
+    top: 55px;
+    img{
+        width: 100%;
+    }
+}
+.searchBar{
+	width:100%;
+	height:40px;
+	padding-left: 30px;
+    display: block;
+    color: #878787;
+    font-size: 22px;
+}
+.searchIcon{
+    width: 35px;
+    opacity: .2;
+    position: absolute;
+    top: 8px;
+}
+.container{
+    margin-top: 70px;
+    margin-left: 13%;
+    width: 80%;
+}
+.cd-container{
+    
+    position: relative;
+    padding: 2em 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50px;
+        height: 100%;
+        width: 4px;
+        background: #d7e4ed;
+    }
+}
+.TimelineContainer{
+    margin-top: 50px;
+    margin-left: 13%;
+    width: 80%;
+    background-color:white;
+    clear: both;
+}
+.preview{
+    display: inline-block;
+    font-size: 15px;
+    span{
+        background-color:#eaf7fd;
+    }
+}
+.tag{
+    display: inline-block;
+    font-size: 13px;
+    border: 1px solid;
+    padding: 1px 5px;
+    margin-left: 5px;
+}
+h4{
+    color: #6aa8b5;
+}
+.underLine{
+    border-bottom:1px solid #f5f5f5;
+    margin: 50px 0 0 55px;
+}
+.Slot{
+    position:relative;
+
+}
+.marginTop{
+    margin-top: 30px;
+}
+.marginLeft{
+    margin-left: 150px;
+}
+.timelineBar{
+    position:absolute;
+    left: 25px;
+
+    #symbol{
+        border-radius:50%;
+        border: 1px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        font-size: 25px;
+        background-color: #3eaeed;
+
+    }
+    p{
+        background-color:#e5e5e5;
+        color: #696969;
+    }
+}
+.firstSlot-Content{
+    .fileContent{
+        display: inline-block;
+        margin-left: 1%;
+    }
+    .file{
+        display: inline-block;
+        float: left;
+    }
+    p{
+        color:#9a9a9a;
+    }
+    
+    .timeLineX{
+        background-color: #646464;
+        width: 79px;
+        padding-left: 5px;
+        margin-top: 10px;
+    }
+}
+
+.secondSlot-content{
+    .imgcart2{
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .imgcart1{
+        display: inline-block;
+    }
+    p{
+        color:#9a9a9a;
+    } 
+}
+.thirdSlot-content{
+    .cart1{
+        display: inline-block;
+        img{
+            border-radius:50%;
+
+        }
+        h5{
+            margin-top: 8px
+        }
+        p{
+            color: #828282;
+            font-size: 15px;
+        }
+    }
+    .cart2{
+        display: inline-block;
+        margin-left: 20px;
+        width: 50%;
+        p{
+            color: #828282;
+            width:100%;
+            span{
+                background-color: #eaf7fd;
+            }
+        }
+    }
+}
+.forthSlot-content{
+   h5{
+    display: inline-block;
+}
+.cart1{
+    width: 60%;
+    color: #9d9d9d; 
+    span{
+        background-color: #eaf7fd;
+    }
+}
+.cart2{
+    width: 60%;
+    color: #d8d8d8;
+    margin-top: 10px;
+}
+}
+.lastBar{
+    width: 80%;
+    height: 40px;
+    background-color:#ebebeb;
+    text-align: center;
+    p{
+        padding-top:13px;
+        color: #8f8f8d; 
+        font-size: 15px;
+    }
+}
+.checkList{
+    margin-top: 10px;
+    ul{
+        list-style: none;
+        li{
+            float: left;
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0px;
+            }
+            .checkbox label {
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+                padding-left: 5px;
+                font-size: 12px;
+            }
+
+            .checkbox label::before {
+                content: "";
+                display: inline-block;
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                left: 0;
+                margin-left: -20px;
+                border: 1px solid #efeff6;
+                border-radius: 3px;
+                -webkit-transition: border .15s ease-in-out,color .15s ease-in-out;
+                -o-transition: border .15s ease-in-out,color .15s ease-in-out;
+                transition: border .15s ease-in-out,color .15s ease-in-out;
+                background: #fcfff4;
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+            }
+
+            .checkbox label::after {
+                display: inline-block;
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                left: 0;
+                top: -2px;
+                margin-left: -20px;
+                padding-left: 2px;
+                padding-top: 0;
+                font-size: 15px;
+                color: #00c09d
+            }
+
+            .checkbox input[type=checkbox] {
+                opacity: 0;
+                z-index: 1
+            }
+
+            .checkbox input[type=checkbox]:focus+label::before {
+                outline: 0
+            }
+
+            .checkbox input[type=checkbox]:checked+label::after {
+                content: "";
+                width: 7px;
+                height: 8px;
+                background: #3eaeed;
+                top: 2px;
+                left: 3px;
+                box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 700px){
+    .secondSlot-content{
+        margin-left: 40%;
+        img{
+            width: 80%;
+        }
+        .imgcart2{
+            margin-left:0px;
+            display: inline-block;
+        }
+        .imgcart1{
+            display: inline-block;
+        }
+        p{
+            color:#9a9a9a;
+        } 
+    }
+    .marginLeft{
+        margin-left: 40%;
+    }
+    .preview{
+        font-size: 15px;
+        margin-left: -20px;
+
+        span{
+            background-color:#eaf7fd;
+        }
+    }
+    .tag{
+        display: inline-block;
+        font-size: 11px;
+        border: 1px solid;
+        padding: 1px 3px;
+        margin-left:0px;
+    }
+    .lastBar{
+        width: 60%;
+    }
+    .TimelineContainer{
+        margin-top: 0px;
+    }
+    .checkList{
+        li{
+            margin-bottom: 10px;
+        }
+        
+    }
+}

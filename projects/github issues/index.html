@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Urban</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+<div class="count-list">
+	<h3 class="countTag inlineItem">Count:</h3>
+	<div id="count" class="inlineItem">0</div>
+</div>
+
+
+<div class="searchBarCover">
+<input type="name" name="search" id="search" placeholder="Type Repository Name">
+</div>
+
+
+<div class="cover">
+</div>
+<script id="template-repo" type="text/x-handlebars-template">
+<div id="{{repositaryName}}" class="cart"></div>
+</script>
+<script id="template" type="text/x-handlebars-template">
+	<h3 class="inlineItem">Repository-name:</h3>
+	<h4 id="repositary-name" class="inlineItem">{{repositaryName}}</h4>
+	{{#if resultsFound}}
+		<ol class="issue_list">
+  		{{#each result}}
+  			<li class="issue">
+  				<a target="_blank" href="issue.html?api={{repository_url}}/issues/{{number}}">{{title}}</a>
+  			</li>
+  		{{/each}}
+	</ol>
+	{{else}}
+		<h4 class="Noresult">No Issue Found</h4>
+	{{/if}}
+	
+</script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+<script type="text/javascript" src="js/bloodhound.js"></script>
+<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

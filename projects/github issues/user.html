@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+</head>
+<body>
+<div id="#ajaxStatusMessage"> </div>
+<div class="userCover"></div>
+<script id="template" type="text/x-handlebars-template">
+	<h4 class="marginTop">User's picture:</h4>
+	<img src="{{avatar_url}}" class="userImg">
+	<h4 class="marginTop">User's name:</h4>
+	<p class="userName">{{name}}</p>
+	<h4 class="marginTop">User's Github Url:</h4>
+	<a href="https://api.github.com/users/caub" class="userUrl">{{url}}</a>
+</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/typeahead.bundle.js"></script>
+<script type="text/javascript" src="js/bloodhound.js"></script>
+<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+<script type="text/javascript" src="js/user.js"></script>
+</body>
+</html>
