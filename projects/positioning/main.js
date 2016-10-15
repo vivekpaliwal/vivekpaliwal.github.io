@@ -1,25 +1,25 @@
  $("#abso").bind('click', function(event) {
 
-     var parent = this.parentElement;
+     var parent = $(this).parent();
      handler(parent, "absolute");
 
  });
  $("#rela").bind('click', function(event) {
-     var parent = this.parentElement;
+     var parent = $(this).parent();
      handler(parent, "relative");
  });
  $("#fixe").bind('click', function(event) {
-     var parent = this.parentElement;
+     var parent = $(this).parent();
      handler(parent, "fixed");
 
  });
 
  function handler(parent, box) {
-     var top = parent.childNodes[3].childNodes[1].children[0].cells[1].childNodes[0].value + "px"
-     var left = parent.childNodes[3].childNodes[1].children[1].cells[1].childNodes[0].value + "px";
-     var right = parent.childNodes[3].childNodes[1].children[2].cells[1].childNodes[0].value + "px";
-     var bottom = parent.childNodes[3].childNodes[1].children[3].cells[1].childNodes[0].value + "px";
-     var zindex = parent.childNodes[3].childNodes[1].children[4].cells[1].childNodes[0].value;
+     var top =parent.find(".topValue").val() + "px"
+     var left =parent.find(".leftValue").val() + "px";
+     var right =parent.find(".rightValue").val() + "px";
+     var bottom =parent.find(".bottomValue").val() + "px";
+     var zindex =parent.find(".zindexValue").val();
      if (box == "absolute") {
          position("#absolute");
      }
